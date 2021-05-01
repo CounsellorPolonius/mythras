@@ -10,7 +10,7 @@ The original mrpoid2018 repository is available here: https://github.com/Yichou/
 # Installation
 Put the APK on to your android device and install it either manually or with a package manager. 
 
-# changelog, Version 1.0
+# Changelog, Version 1.0
  - Most text translated to english. 
  - Umeng Analytics and trackers have been removed/disabled. Note that this may break functionality of some things in the app. 
 
