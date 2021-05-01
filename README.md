@@ -1,6 +1,8 @@
 # Mythras
 Fork of mrpoid2018 with english localization and various quality of life improvements. The previous version of this was available on the mrpoid2018 repository releases page. Yichou stated on the repository and the APK code that this is free to edit as we see fit. Since the source code for the release build doesn't seem to be anywhere I had to decompile the APK and do the changes. mrpoid2018 is an emulator on android that emulates most MRP/Mythroad games. MRP/Mythroad was a platform available for flip phones in China. It's similar to J2ME, Brew and related platforms. I had originally translated and prepped the original repository for distribution but Yichou's source code is not the same version as the one in the releases tab. 
 
+Based on my tests this should be compatible with most MRP/Mythroad games and all the ones I tested worked fine. 
+
 A large collection of Mythroad games are available here: https://archive.org/details/MythroadArchive
 
 A windows MRP/Mythroad emulator is available here: https://github.com/zengming00/vmrp/ 
