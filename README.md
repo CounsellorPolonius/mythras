@@ -11,6 +11,7 @@ The original mrpoid2018 repository is available here: https://github.com/Yichou/
 Put the APK on to your android device and install it either manually or with a package manager. 
 
 # Changelog, Version 1.0
+ - Mrpoid2018 renamed to Mythras. 
  - Most text translated to english. 
  - Umeng Analytics and trackers have been removed/disabled. Note that this may break functionality of some things in the app. 
 
