@@ -189,7 +189,7 @@
     <string name="setup_wizard">Setup Wizard</string>
     <string name="setup_wizard_sum">Please read the setup guide before messing with advanced settings.</string>
     <string name="setup_wizard_uri">http://edroid.sinaapp.com/pages/mrpoid-steup.php</string>
-    <string name="share">分享</string>
+    <string name="share">Share</string>
     <string name="share_msg">Mrpoid is a professional mrp emulator on Android. It can run most mrp perfectly, supports resolution settings, supports screen stretch, supports virtual keyboard, supports virtual keyboard customization, if you know MRP, if you are still obsessed with MRP Platform, you can install Mrpoid to bring you back to the era when you were invaded in MRP mobile games!</string>
     <string name="show">Display</string>
     <string name="show_float_button">Show Floating Button.</string>
