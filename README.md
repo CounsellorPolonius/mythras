@@ -13,11 +13,11 @@ Put the APK on to your android device and install it either manually or with a p
 
 
 # To Do 
-New logo and splash screen. 
-Finding the remaining strings of untranslated text. 
-Seeing if Yichou will release the actual source code for this. 
-Find the lost mrpoid2018 quickstart guide. 
-Gamepad support? Who knows? 
+ - New logo and splash screen. 
+ - Finding the remaining strings of untranslated text. 
+ - Seeing if Yichou will release the actual source code for this. 
+ - Find the lost mrpoid2018 quickstart guide. 
+ - Gamepad support? Who knows? 
 
 # Other 
 If you want something changed or want to add something feel free to either fork this or create pull requests. I'll see if I can get it in. 
