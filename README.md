@@ -9,6 +9,8 @@ A windows MRP/Mythroad emulator is available here: https://github.com/zengming00
 
 The original mrpoid2018 repository is available here: https://github.com/Yichou/mrpoid2018
 
+Gameplay demonstration: https://youtu.be/Due0q0-bfew
+
 # Installation
 Put the APK on to your android device and install it either manually or with a package manager. To build it you need to download this repository and then compile and sign the app using whatever tools you want (I used APKTools and a XDA tutorial). 
 
