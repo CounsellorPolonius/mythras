@@ -3,7 +3,7 @@ Fork of mrpoid2018 with english localization and various quality of life improve
 
 Based on my tests this should be compatible with most MRP/Mythroad games and all the ones I tested worked fine. I was unable to get this application working properly on Bluestacks and Android x86. It did however work on my two physical android phones no problem. 
 
-A large collection of Mythroad games are available here: https://archive.org/details/MythroadArchive
+A large collection of Mythroad games are available here: https://archive.org/details/mrp-games
 
 A windows MRP/Mythroad emulator is available here: https://github.com/zengming00/vmrp/ 
 
