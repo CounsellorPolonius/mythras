@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.mrpoid.app">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <!-- <uses-permission android:name="android.permission.READ_APN_SETTINGS"/> -->
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/> -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <!--<uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.WRITE_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>-->
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:name="com.mrpoid.mrplist.app.MyApplication" android:theme="@style/AppTheme">
+        <activity android:label="@string/app_name" android:name="com.mrpoid.mrplist.app.WelcomeActivity" android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name="com.mrpoid.mrplist.app.HomeActivity" android:theme="@style/AppTheme"/>
+        <activity android:allowTaskReparenting="true" android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/app_name_brw" android:name="com.mrpoid.mrplist.app.BrowserActivity" android:taskAffinity="com.mrpoid.brw" android:theme="@style/AppThemeBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/file_explorer" android:name="com.mrpoid.mrplist.app.ExplorerActivity" android:theme="@style/AppThemeBar"/>
+        <meta-data android:name="UMENG_APPKEY" android:value="nope"/>
+        <meta-data android:name="UMENG_CHANNEL" android:value="2018"/>
+        <service android:exported="false" android:name="com.mrpoid.app.EmulatorService"/>
+        <receiver android:exported="false" android:name="com.mrpoid.app.EmulatorReceiver"/>
+        <activity android:configChanges="keyboard|orientation" android:name="com.mrpoid.app.EmulatorActivity" android:theme="@style/emu_theme_light"/>
+        <activity android:name="com.mrpoid.app.HelpActivity" android:theme="@style/emu_theme_light_bar"/>
+        <activity android:name="com.mrpoid.game.keypad.KeypadEditActivity" android:theme="@style/emu_theme_light"/>
+        <activity android:label="@string/settings" android:name="com.mrpoid.app.SettingsActivity2" android:theme="@style/emu_theme_light_darkbar"/>
+        <activity android:label="@string/settings" android:name="com.mrpoid.game.keysprite.KeySpriteEditorActivity" android:theme="@style/emu_theme_light_bar"/>
+        <activity android:configChanges="keyboard|orientation" android:exported="true" android:launchMode="standard" android:multiprocess="true" android:name="com.mrpoid.app.ExternActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.EDIT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="application/mrp"/>
+            </intent-filter>
+        </activity>
+        <activity android:allowTaskReparenting="true" android:configChanges="keyboardHidden|orientation|screenSize" android:label="[MRPOID]窗口0" android:name="com.mrpoid.apps.AppActivity0" android:process=":app0" android:taskAffinity="com.mrpoid.apps.App0" android:theme="@style/emu_theme_light"/>
+        <service android:name="com.mrpoid.apps.AppService0" android:process=":app0"/>
+        <activity android:allowTaskReparenting="true" android:configChanges="keyboardHidden|orientation|screenSize" android:label="[MRPOID]窗口1" android:name="com.mrpoid.apps.AppActivity1" android:process=":app1" android:taskAffinity="com.mrpoid.apps.App1" android:theme="@style/emu_theme_light"/>
+        <service android:name="com.mrpoid.apps.AppService1" android:process=":app1"/>
+        <activity android:allowTaskReparenting="true" android:configChanges="keyboardHidden|orientation|screenSize" android:label="[MRPOID]窗口2" android:name="com.mrpoid.apps.AppActivity2" android:process=":app2" android:taskAffinity="com.mrpoid.apps.App2" android:theme="@style/emu_theme_light"/>
+        <service android:name="com.mrpoid.apps.AppService2" android:process=":app2"/>
+        <activity android:allowTaskReparenting="true" android:configChanges="keyboardHidden|orientation|screenSize" android:label="[MRPOID]窗口3" android:name="com.mrpoid.apps.AppActivity3" android:process=":app3" android:taskAffinity="com.mrpoid.apps.App3" android:theme="@style/emu_theme_light"/>
+        <service android:name="com.mrpoid.apps.AppService3" android:process=":app3"/>
+        <activity android:allowTaskReparenting="true" android:configChanges="keyboardHidden|orientation|screenSize" android:label="[MRPOID]窗口4" android:name="com.mrpoid.apps.AppActivity4" android:process=":app4" android:taskAffinity="com.mrpoid.apps.App4" android:theme="@style/emu_theme_light"/>
+        <service android:name="com.mrpoid.apps.AppService4" android:process=":app4"/>
+    </application>
+</manifest>

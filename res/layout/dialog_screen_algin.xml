@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@android:color/holo_orange_dark" android:showDividers="beginning|end|middle" android:dividerPadding="3.0dip">
+        <TableRow android:id="@id/tableRow1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@android:color/holo_orange_dark" android:layout_weight="1.0" android:showDividers="beginning|end|middle" android:dividerPadding="3.0dip">
+            <TextView android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="left top" android:layout_weight="1.0" />
+            <TextView android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="cen top" android:layout_weight="1.0" />
+            <TextView android:gravity="right" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="top right" android:layout_weight="1.0" />
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="left cen" android:layout_weight="1.0" />
+            <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="cen cen" android:layout_weight="1.0" />
+            <TextView android:gravity="center|right" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="cen right" android:layout_weight="1.0" />
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="left btm" android:layout_weight="1.0" />
+            <TextView android:gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="cen btm" android:layout_weight="1.0" />
+            <TextView android:gravity="bottom|center|right" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="top btm" android:layout_weight="1.0" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

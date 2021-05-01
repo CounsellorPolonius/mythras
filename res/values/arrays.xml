@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bg_imgs">
+        <item>No.</item>
+        <item>Wallpaper 1</item>
+        <item>Wallpaper 2</item>
+        <item>Wallpaper 3</item>
+        <item>Wallpaper 4</item>
+        <item>Wallpaper 5</item>
+        <item>Wallpaper 6</item>
+        <item>Wallpaper 7</item>
+    </string-array>
+    <string-array name="comp_entries">
+        <item>Common</item>
+        <item>Specify the Stack Address</item>
+    </string-array>
+    <string-array name="comp_entryvalues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="emu_entries">
+        <item>Emulator 0</item>
+        <item>Emulator 1</item>
+        <item>Emulator 2</item>
+        <item>Emulator 3</item>
+        <item>Emulator 4</item>
+        <item>Emulator 5</item>
+    </string-array>
+    <string-array name="emu_entry_values">
+        <item>emu0</item>
+        <item>emu1</item>
+        <item>emu2</item>
+        <item>emu3</item>
+        <item>emu4</item>
+        <item>emu5</item>
+    </string-array>
+    <string-array name="emu_menu_items_options">
+        <item>Background Process</item>
+        <item>Zoom Mode</item>
+        <item>Screenshots</item>
+        <item>Switch Keyboard</item>
+        <item>Keyboard Transparency</item>
+        <item>QuickMacro</item>
+        <item>Exit</item>
+        <item>Status Bar</item>
+        <item>Anti-Aliasing</item>
+        <item>Key Vibration</item>
+        <item>Edit Word Count</item>
+        <item>Fullscreen Editing</item>
+        <item>Quit Completely</item>
+    </string-array>
+    <string-array name="float_button_func_entries">
+        <item>Menu</item>
+        <item>Zoom Mode</item>
+    </string-array>
+    <string-array name="font_entry_titles">
+        <item>No. 16 Italics</item>
+        <item>No. 16 Song</item>
+        <item>System</item>
+    </string-array>
+    <string-array name="font_entry_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="fps_values">
+        <item>10</item>
+        <item>30</item>
+        <item>40</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="key_titles">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>*</item>
+        <item>\#</item>
+        <item>On</item>
+        <item>Under</item>
+        <item>Left</item>
+        <item>Right</item>
+        <item>Hang Up</item>
+        <item>Left Soft</item>
+        <item>Right Soft</item>
+        <item>Answer</item>
+        <item>Ok</item>
+    </string-array>
+    <string-array name="main_menu_items">
+        <item>Local Apps</item>
+        <item>Online Store</item>
+        <item>File Browser</item>
+        <item>Update</item>
+        <item>Feedback</item>
+        <item>Setup</item>
+    </string-array>
+    <string-array name="memsize_entries">
+        <item>1 M</item>
+        <item>2 M</item>
+        <item>4 M</item>
+        <item>8 M</item>
+    </string-array>
+    <string-array name="memsize_entryvalues">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="page_titles">
+        <item>Recent Apps</item>
+        <item>Local Apps</item>
+    </string-array>
+    <string-array name="run_mode_entries">
+        <item>Emulator 1</item>
+        <item>Emulator 2</item>
+        <item>Emulator 3</item>
+        <item>Emulator 4</item>
+        <item>Emulator 5</item>
+    </string-array>
+    <string-array name="scaling_mode_entries">
+        <item>Original Size</item>
+        <item>Proportional Stretching</item>
+        <item>Full Screen Stretch</item>
+        <item>x2</item>
+    </string-array>
+    <string-array name="scaling_mode_entryvalues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="screensize_entries">
+        <item>176x220</item>
+        <item>240x320</item>
+        <item>240x400</item>
+        <item>320x480</item>
+        <item>480x800</item>
+    </string-array>
+    <string-array name="store_page_titles">
+        <item>Necessary</item>
+        <item>Classic</item>
+        <item>Software</item>
+        <item>Game</item>
+    </string-array>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidemu="http://androidemu.com/apk/res/android">
+    <PreferenceCategory android:title="@string/ct_vm">
+        <ListPreference android:entries="@array/comp_entries" android:title="@string/comp" android:key="compMode" android:summary="@string/sum_comp" android:defaultValue="0" android:entryValues="@array/comp_entryvalues" />
+        <ListPreference android:entries="@array/memsize_entries" android:title="@string/mem_size" android:key="memSize" android:defaultValue="1" android:entryValues="@array/memsize_entryvalues" />
+        <CheckBoxPreference android:title="@string/enable_exram" android:key="enableExram" android:summary="@string/enable_exram_sum" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/use_full_dsm" android:key="mrVm" android:summary="@string/use_full_dsm_sum" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/title_pause" android:key="pause" android:summary="@string/sum_pause" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/title_diy_model_b" android:key="diyModel" android:defaultValue="false" />
+        <EditTextPreference android:title="@string/title_diy_model" android:key="model" android:summary="@string/sum_diy_model" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/video_settings">
+        <ListPreference android:entries="@array/font_entry_titles" android:title="@string/font_settings" android:key="fontType" android:defaultValue="0" android:entryValues="@array/font_entry_values" />
+        <ListPreference android:entries="@array/scaling_mode_entries" android:title="@string/scaling_mode" android:key="scaleMode" android:defaultValue="1" android:entryValues="@array/scaling_mode_entryvalues" />
+        <ListPreference android:entries="@array/fps_values" android:title="@string/pft_fps" android:key="fps" android:defaultValue="30" android:entryValues="@array/fps_values" />
+        <CheckBoxPreference android:title="@string/use_gl" android:key="openGL" android:summary="@string/sum_gl" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/use_scaleFilter" android:key="scaleFilter" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/full_screen" android:key="fullScreen" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/screen_on" android:key="screenOn" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/show_fps" android:key="showFPS" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/input_settings">
+        <CheckBoxPreference android:title="@string/catch_volumekey" android:key="catchVolumeKey" android:summary="@string/catch_volumekey_sum" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/enable_touch_virb" android:key="keyVirb" android:defaultValue="true" />
+        <Preference android:title="@string/keypad_layout" android:key="keypadLayout" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/other">
+        <Preference android:title="@string/version" android:key="version" android:summary="@string/version_summery" />
+        <Preference android:title="@string/about" android:key="about" android:summary="@string/about_sum" />
+        <Preference android:title="@string/title_help" android:key="help" />
+    </PreferenceCategory>
+</PreferenceScreen>

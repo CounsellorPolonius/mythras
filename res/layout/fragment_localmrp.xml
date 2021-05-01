@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/progressContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleLarge" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:drawSelectorOnTop="false" android:layout_weight="1.0" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:ellipsize="marquee" android:id="@id/tvPath" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="mythorad/240x320" android:singleLine="true" android:layout_alignParentTop="true" />
+    </LinearLayout>
+    <TextView android:id="@id/empty" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="No data" android:layout_centerInParent="true" />
+</RelativeLayout>

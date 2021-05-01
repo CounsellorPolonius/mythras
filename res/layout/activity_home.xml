@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:orientation="vertical" android:id="@id/drawer_layout" android:fitsSystemWindows="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/navigation_toolbar" />
+        <FrameLayout android:id="@id/contener" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <android.support.design.widget.NavigationView android:layout_gravity="start" android:id="@id/nav_view" android:fitsSystemWindows="true" android:layout_width="300.0dip" android:layout_height="fill_parent" app:headerLayout="@layout/drawer_header" app:menu="@menu/drawer" />
+</android.support.v4.widget.DrawerLayout>

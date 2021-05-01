@@ -1,0 +1,41 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: mrpoid2018.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- META-INF/com.android.support_support-core-ui.version
+- META-INF/com.android.support_support-fragment.version
+- META-INF/android.arch.lifecycle_runtime.version
+- META-INF/com.android.support_animated-vector-drawable.version
+- META-INF/com.android.support_design.version
+- META-INF/com.android.support_support-core-utils.version
+- META-INF/com.android.support_support-media-compat.version
+- META-INF/com.android.support_appcompat-v7.version
+- META-INF/android.arch.lifecycle_viewmodel.version
+- META-INF/com.android.support_support-vector-drawable.version
+- META-INF/android.arch.lifecycle_livedata-core.version
+- META-INF/com.android.support_support-compat.version
+- META-INF/android.arch.core_runtime.version
+- META-INF/com.android.support_recyclerview-v7.version
+- META-INF/com.android.support_support-v4.version
+- META-INF/com.android.support_transition.version
+- jpg
+- png
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '14'
+  targetSdkVersion: '27'
+sharedLibrary: false
+sparseResources: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.5.0
+versionInfo:
+  versionCode: '3000'
+  versionName: 3.0.25

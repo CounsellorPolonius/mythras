@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:icon="@drawable/ic_menu_star" android:id="@id/nav_local" android:title="@string/nav_local" />
+        <item android:icon="@drawable/ic_menu_store" android:id="@id/nav_store" android:title="@string/nav_store" />
+        <item android:icon="@drawable/ic_menu_search" android:id="@id/nav_explorer" android:title="@string/nav_explorer" />
+    </group>
+    <item android:title="Others">
+        <menu>
+            <item android:icon="@drawable/ic_menu_scnsize" android:id="@id/nav_scnsize" android:title="@string/screensize" />
+            <item android:icon="@drawable/ic_menu_manage" android:id="@id/nav_settings" android:title="@string/nav_settings" />
+            <item android:icon="@drawable/ic_menu_theme" android:id="@id/nav_theme" android:title="@string/theme" />
+            <item android:icon="@drawable/ic_update" android:id="@id/nav_update" android:visible="false" android:title="@string/check_update" />
+            <item android:icon="@drawable/ic_mood_24dp" android:id="@id/nav_gift" android:visible="false" android:title="@string/gift" />
+        </menu>
+    </item>
+</menu>

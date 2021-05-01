@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/ic_user_background" android:layout_width="fill_parent" android:layout_height="164.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/userPhoto" android:layout_width="@dimen/userPhoto_layout_width" android:layout_height="@dimen/userPhoto_layout_height" android:layout_marginLeft="@dimen/userPhoto_layout_marginLeft" android:layout_marginTop="@dimen/userPhoto_layout_marginTop" android:layout_marginBottom="@dimen/userPhoto_layout_marginTop" android:src="@drawable/logggg" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textSize="@dimen/userName_textSize" android:textColor="#f0ffffff" android:id="@id/userName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_desc" android:layout_below="@id/userPhoto" android:layout_alignLeft="@id/userPhoto" />
+    <TextView android:textSize="12.0sp" android:textColor="#f0ffffff" android:id="@id/tvVersion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/app_name" android:layout_below="@id/userName" android:layout_alignLeft="@id/userPhoto" />
+</RelativeLayout>

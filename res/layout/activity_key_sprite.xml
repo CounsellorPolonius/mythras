@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <EditText android:id="@id/edit_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Input Time in MS (1sec = 1000ms)" android:inputType="number">
+                <requestFocus />
+            </EditText>
+            <Spinner android:id="@id/spinner1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" />
+        </LinearLayout>
+        <ImageButton android:id="@id/ibtn_add" android:layout_width="60.0dip" android:layout_height="40.0dip" android:layout_marginLeft="30.0dip" android:src="@drawable/ic_add" />
+    </LinearLayout>
+    <ListView android:id="@id/listView1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

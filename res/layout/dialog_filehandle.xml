@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="路径：" />
+    <TextView android:id="@id/textView2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="TextView" />
+    <EditText android:id="@id/editText1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:ems="10">
+        <requestFocus />
+    </EditText>
+    <Button android:id="@id/button1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="改名" />
+    <Button android:id="@id/button2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="打开" />
+</LinearLayout>

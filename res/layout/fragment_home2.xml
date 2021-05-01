@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:orientation="vertical" android:id="@id/drawer_layout" android:fitsSystemWindows="true" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/navigation_toolbar" />
+        <com.mrpoid.mrplist.view.SlidingTabLayout android:id="@id/sliding_tabs" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="@dimen/tab_height" />
+        <android.support.v4.view.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:id="@id/start_drawer" android:background="#ffffffff" android:clickable="true" android:layout_width="300.0dip" android:layout_height="fill_parent">
+        <include layout="@layout/drawer_header" />
+        <ListView android:id="@id/listView1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" android:choiceMode="singleChoice" android:layout_weight="1.0" />
+    </LinearLayout>
+</android.support.v4.widget.DrawerLayout>

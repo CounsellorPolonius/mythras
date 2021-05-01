@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="5.0dip" android:paddingTop="8.0dip" android:paddingRight="5.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/ic_folder" />
+        <TextView android:textSize="15.0sp" android:textColor="@android:color/black" android:id="@id/tvPath" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/ll_op" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip">
+        <Button android:id="@id/btn_del" android:background="@drawable/garbage" android:focusable="false" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+        <Button android:id="@id/btn_rename" android:background="@drawable/_edit" android:focusable="false" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="100.0dip" />
+    </LinearLayout>
+</LinearLayout>
