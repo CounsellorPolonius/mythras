@@ -16,6 +16,7 @@ Put the APK on to your android device and install it either manually or with a p
  - Mrpoid2018 renamed to Mythras. 
  - Most text translated to english. 
  - Umeng Analytics and trackers have been removed/disabled. Note that this may break functionality of some things in the app. 
+ - This has been a learning experience for me and I have not done something like this before. SOme of the code quality may be a mess and some of the anti-tracking things I added may have been a hackjob. I'm always open to suggestions. 
 
 
 # To Do 
