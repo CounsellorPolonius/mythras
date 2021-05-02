@@ -14,6 +14,10 @@ Gameplay demonstration: https://youtu.be/Due0q0-bfew
 # Installation
 Put the APK on to your android device and install it either manually or with a package manager. To build it you need to download this repository and then compile and sign the app using whatever tools you want (I used APKTools and a XDA tutorial). 
 
+# Changelog, Version 1.1
+ - New icon courtesy of Alexis QD Pro Plus 20+. 
+ - One string was untraslated. That has since been fixed. 
+
 # Changelog, Version 1.0
  - Mrpoid2018 renamed to Mythras. 
  - Most text translated to english. 
@@ -22,7 +26,7 @@ Put the APK on to your android device and install it either manually or with a p
 
 
 # To Do 
- - New icon and splash screen. 
+ - New and splash screen. 
  - Finding the remaining strings of untranslated text. 
  - Seeing if Yichou will release the actual source code for this. 
  - Find the lost mrpoid2018 quickstart guide. 
