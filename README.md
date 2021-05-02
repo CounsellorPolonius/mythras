@@ -16,7 +16,7 @@ Put the APK on to your android device and install it either manually or with a p
 
 # Changelog, Version 1.1
  - New icon courtesy of Alexis QD Pro Plus 20+. 
- - One string was untraslated. That has since been fixed. 
+ - One string was untranslated. That has since been fixed. 
 
 # Changelog, Version 1.0
  - Mrpoid2018 renamed to Mythras. 
