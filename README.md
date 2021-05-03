@@ -15,8 +15,8 @@ Gameplay demonstration: https://youtu.be/Due0q0-bfew
 Put the APK on to your android device and install it either manually or with a package manager. To build it you need to download this repository and then compile and sign the app using whatever tools you want (I used APKTools and a XDA tutorial). 
 
 # Changelog, Version 1.1
- - New icon courtesy of Alexis QD Pro Plus 20+. 
- - One string was untranslated. That has since been fixed. 
+ - New icon and splash screen courtesy of Alexis QD Pro Plus 20+. 
+ - Some strings were untranslated. That has since been fixed. 
 
 # Changelog, Version 1.0
  - Mrpoid2018 renamed to Mythras. 
