@@ -3,19 +3,19 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <LinearLayout android:orientation="vertical" android:id="@id/linerLayout1" android:paddingLeft="5.0dip" android:paddingTop="3.0dip" android:paddingRight="5.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
         <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <TextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="缩放：" />
+            <TextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="Zoom：" />
             <SeekBar android:id="@id/seekBar1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="150" android:progress="100" android:layout_weight="1.0" />
         </LinearLayout>
         <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <TextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="透明：" />
+            <TextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="Transparent：" />
             <SeekBar android:id="@id/seekBar2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="255" android:progress="250" />
         </LinearLayout>
         <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
-            <CheckBox android:id="@id/checkBox1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="横屏" android:layout_weight="1.0" />
-            <CheckBox android:id="@id/checkBox2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="简单" android:layout_weight="1.0" />
-            <Button android:id="@id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="保存" android:layout_weight="1.0" style="?android:buttonStyleSmall" />
+            <CheckBox android:id="@id/checkBox1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Horizontal Screen" android:layout_weight="1.0" />
+            <CheckBox android:id="@id/checkBox2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Simple" android:layout_weight="1.0" />
+            <Button android:id="@id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Save" android:layout_weight="1.0" style="?android:buttonStyleSmall" />
         </LinearLayout>
-        <TextView android:textColor="#fff00000" android:gravity="center" android:id="@id/textView1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="拖至此线之上隐藏" />
+        <TextView android:textColor="#fff00000" android:gravity="center" android:id="@id/textView1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="Drag above to hide this line." />
         <View android:background="#fff00000" android:layout_width="fill_parent" android:layout_height="1.0dip" />
     </LinearLayout>
     <FrameLayout android:id="@id/togBtn" android:background="@drawable/ind_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
