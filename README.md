@@ -12,25 +12,11 @@ The original mrpoid2018 repository is available here: https://github.com/Yichou/
 Gameplay demonstration: https://youtu.be/Due0q0-bfew
 
 # Installation
-Put the APK on to your android device and install it either manually or with a package manager. To build it you need to download this repository and then compile and sign the app using whatever tools you want (I used APKTools and a XDA tutorial). 
-
-# Changelog, Version 1.1
- - New icon and splash screen courtesy of Alexis QD Pro Plus 20+. 
- - Some strings were untranslated. That has since been fixed. 
-
-# Changelog, Version 1.0
- - Mrpoid2018 renamed to Mythras. 
- - Most text translated to english. 
- - Umeng Analytics and trackers have been removed/disabled. Note that this may break functionality of some things in the app. 
- - This has been a learning experience for me and I have not done something like this before. SOme of the code quality may be a mess and some of the anti-tracking things I added may have been a hackjob. I'm always open to suggestions. 
-
+Put the APK on to your android device and install it either manually or with a package manager. To build it you need to download this repository and then compile and sign the app using whatever tools you want (I used APKTools and a XDA tutorial). If you want to use a gamepad with this app I recomend using Octopus or another keymapper. 
 
 # To Do 
- - New and splash screen. 
- - Finding the remaining strings of untranslated text. 
  - Seeing if Yichou will release the actual source code for this. 
  - Find the lost mrpoid2018 quickstart guide. 
- - Gamepad support? Who knows? 
 
 # Other 
 If you want something changed or want to add something feel free to either fork this or create pull requests. I'll see if I can get it in. 
