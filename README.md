@@ -5,6 +5,8 @@ Based on my tests this should be compatible with most MRP/Mythroad games and all
 
 A large collection of Mythroad games are available here: https://archive.org/details/mrp-games
 
+A working compatibility list of games is available here: https://github.com/Lucas-mother3/mythras-compatibility
+
 A windows MRP/Mythroad emulator is available here: https://github.com/zengming00/vmrp/ 
 
 The original mrpoid2018 repository is available here: https://github.com/Yichou/mrpoid2018
