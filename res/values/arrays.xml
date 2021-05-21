@@ -105,12 +105,32 @@
         <item>2 M</item>
         <item>4 M</item>
         <item>8 M</item>
+        <item>16 M</item>
+        <item>32 M</item>
+        <item>64 M</item>
+        <item>128 M</item>
+        <item>256 M</item>
+        <item>512 M</item>
+        <item>1 G</item>
+        <item>2 G</item>
+        <item>4 G</item>
+        <item>8 G</item>
     </string-array>
     <string-array name="memsize_entryvalues">
         <item>1</item>
         <item>2</item>
         <item>4</item>
         <item>8</item>
+        <item>16</item>
+        <item>32</item>
+        <item>64</item>
+        <item>128</item>
+        <item>256</item>
+        <item>512</item>
+        <item>1024</item>
+        <item>2048</item>
+        <item>4096</item>
+        <item>8192</item>
     </string-array>
     <string-array name="page_titles">
         <item>Recent Apps</item>
@@ -136,11 +156,23 @@
         <item>3</item>
     </string-array>
     <string-array name="screensize_entries">
+        <item>128x128</item>
+        <item>128x160</item>
+        <item>160x128</item>
+        <item>132x176</item>
+        <item>176x132</item>
         <item>176x220</item>
+        <item>220x176</item>
         <item>240x320</item>
+        <item>320x240</item>
         <item>240x400</item>
+        <item>400x240</item>
+        <item>360x640</item>
+        <item>640x360</item>
         <item>320x480</item>
+        <item>480x320</item>
         <item>480x800</item>
+        <item>800x480</item>
     </string-array>
     <string-array name="store_page_titles">
         <item>Necessary</item>
