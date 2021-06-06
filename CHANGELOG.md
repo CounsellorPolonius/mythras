@@ -1,7 +1,7 @@
 # Changelog, Version 1.2
  - More strings translated (thanks Lucas-mother3). 
  - Linking the compatibility page (see README.md). 
- - (update still in progress check later). 
+ - More resolutions and RAM options added (thanks Lucas-mother3). 
 
 # Changelog, Version 1.1
  - New icon and splash screen courtesy of Alexis QD Pro Plus 20+. 
